@@ -1,3 +1,3 @@
 public interface Burger {
-    void perform();
+    void add();
 }
