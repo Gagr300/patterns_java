@@ -1,4 +1,3 @@
-//Singleton
 public class LanguageManager {
     private static LanguageManager instance;
     private static String textLanguage;
@@ -12,16 +11,16 @@ public class LanguageManager {
         }
         return instance;
     }
-    public void setTextLang(String textLanguage) {
+    public void setTextLanguage(String textLanguage) {
         this.textLanguage = textLanguage;
     }
-    public void setAudioLang(String audioLanguage) {
+    public void setAudioLanguage(String audioLanguage) {
         this.audioLanguage = audioLanguage;
     }
-    public String getTextLanguage() {
+    public static String getTextLanguage() {
         return textLanguage;
     }
-    public String getAudioLanguage() {
+    public static String getAudioLanguage() {
         return audioLanguage;
     }
 }
