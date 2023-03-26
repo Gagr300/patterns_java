@@ -21,7 +21,7 @@ public class LanguageManager {
     public String getTextLanguage() {
         return textLanguage;
     }
-    public String getAudioLanguageLang() {
+    public String getAudioLanguage() {
         return audioLanguage;
     }
 }
