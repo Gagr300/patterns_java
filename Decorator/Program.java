@@ -34,11 +34,12 @@ public class Program {
             }
         }
         catch(IOException e1) {
-            e1.printStackTrace();
+            System.out.println("IOException");
+            //e1.printStackTrace();
         }
         catch(Exception e) {
             System.out.println("Unexcepted Exception");
-            e.printStackTrace();
+            //e.printStackTrace();
         }
 
     }
