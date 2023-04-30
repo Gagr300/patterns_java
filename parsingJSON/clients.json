@@ -1,0 +1,111 @@
+[ {
+  "name" : "Vikrotiya",
+  "surname" : "Tihomirova",
+  "patronymic" : "Alexeevna",
+  "birthday" : 918680400000,
+  "visitServices" : {
+    "2019-03-20T11:10:00.000+00:00" : [ "bob", "paint", "washing" ]
+  },
+  "id" : "01"
+}, {
+  "name" : "Karina",
+  "surname" : "Samoilova",
+  "patronymic" : "Alexandrovna",
+  "birthday" : 979678800000,
+  "visitServices" : {
+    "2023-02-01T08:00:00.000+00:00" : [ "hairtips", "paint", "washing" ],
+    "2023-03-01T08:00:00.000+00:00" : [ "hairtips", "paint", "washing" ]
+  },
+  "id" : "02"
+}, {
+  "name" : "Tatyana",
+  "surname" : "Petrova",
+  "patronymic" : "Pavlovna",
+  "birthday" : 994276800000,
+  "visitServices" : {
+    "2023-03-02T11:00:00.000+00:00" : [ "hairtips", "washing" ]
+  },
+  "id" : "03"
+}, {
+  "name" : "Kseniya",
+  "surname" : "Granat",
+  "patronymic" : "Olegonva",
+  "birthday" : 996696000000,
+  "visitServices" : {
+    "2023-11-10T06:30:00.000+00:00" : [ "hairtips", "washing" ]
+  },
+  "id" : "04"
+}, {
+  "name" : "Polina",
+  "surname" : "Trusova",
+  "patronymic" : "Pavlovna",
+  "birthday" : 1002484800000,
+  "visitServices" : {
+    "2023-12-27T13:30:00.000+00:00" : [ "hairtips", "washing" ]
+  },
+  "id" : "05"
+}, {
+  "name" : "Anna",
+  "surname" : "Alexeeva",
+  "patronymic" : "Alexeevna",
+  "birthday" : 563745600000,
+  "visitServices" : {
+    "2022-09-09T23:10:00.000+00:00" : [ "bob", "paint", "washing" ]
+  },
+  "id" : "06"
+}, {
+  "name" : "Ekaterina",
+  "surname" : "Golybeva",
+  "patronymic" : "Viktorovna",
+  "birthday" : 979678800000,
+  "visitServices" : {
+    "2023-02-01T08:00:00.000+00:00" : [ "hairtips", "washing" ],
+    "2023-03-01T08:00:00.000+00:00" : [ "hairtips" ]
+  },
+  "id" : "07"
+}, {
+  "name" : "Alina",
+  "surname" : "Golybeva",
+  "patronymic" : "Viktorovna",
+  "birthday" : 960926400000,
+  "visitServices" : {
+    "2023-03-01T11:00:00.000+00:00" : [ "hairtips", "washing" ]
+  },
+  "id" : "08"
+}, {
+  "name" : "Alena",
+  "surname" : "Granat",
+  "patronymic" : "Olegonva",
+  "birthday" : 983739600000,
+  "visitServices" : {
+    "2023-03-01T12:00:00.000+00:00" : [ "hairtips", "washing" ]
+  },
+  "id" : "09"
+}, {
+  "name" : "Olesya",
+  "surname" : "Trusova",
+  "patronymic" : "Pavlovna",
+  "birthday" : 990734400000,
+  "visitServices" : {
+    "2023-03-01T06:00:00.000+00:00" : [ "hairtips" ]
+  },
+  "id" : "10"
+}, {
+  "name" : "Alena",
+  "surname" : "Granat",
+  "patronymic" : "Olegonva",
+  "birthday" : 1007067600000,
+  "visitServices" : {
+    "2023-12-01T12:00:00.000+00:00" : [ "hairtips", "washing" ]
+  },
+  "id" : "09"
+}, {
+  "name" : "Olesya",
+  "surname" : "Trusova",
+  "patronymic" : "Pavlovna",
+  "birthday" : 1002398400000,
+  "visitServices" : {
+    "2023-11-01T06:00:00.000+00:00" : [ "hairtips" ]
+  },
+  "id" : "10"
+} ]
