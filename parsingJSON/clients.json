@@ -1,111 +1,207 @@
 [ {
-  "name" : "Vikrotiya",
-  "surname" : "Tihomirova",
-  "patronymic" : "Alexeevna",
-  "birthday" : 918680400000,
+  "name" : "Denis",
+  "surname" : "Kochetkov",
+  "patronymic" : "Alexeevich",
+  "birthday" : 855608400000,
   "visitServices" : {
-    "2019-03-20T11:10:00.000+00:00" : [ "bob", "paint", "washing" ]
+    "2019-03-20T11:10:00.000+00:00" : [ {
+      "name" : "mask",
+      "description" : "clay",
+      "cost" : 500
+    }, {
+      "name" : "haircut",
+      "description" : null,
+      "cost" : 1000
+    } ]
   },
   "id" : "01"
 }, {
-  "name" : "Karina",
-  "surname" : "Samoilova",
-  "patronymic" : "Alexandrovna",
+  "name" : "Danil",
+  "surname" : "Grishin",
+  "patronymic" : "Alexandrovich",
   "birthday" : 979678800000,
   "visitServices" : {
-    "2023-02-01T08:00:00.000+00:00" : [ "hairtips", "paint", "washing" ],
-    "2023-03-01T08:00:00.000+00:00" : [ "hairtips", "paint", "washing" ]
+    "2023-02-01T08:00:00.000+00:00" : [ {
+      "name" : "mask",
+      "description" : "clay",
+      "cost" : 500
+    }, {
+      "name" : "haircut",
+      "description" : null,
+      "cost" : 1500
+    } ],
+    "2023-03-01T08:00:00.000+00:00" : [ {
+      "name" : "mask",
+      "description" : "black",
+      "cost" : 700
+    }, {
+      "name" : "haircut",
+      "description" : null,
+      "cost" : 2000
+    } ]
   },
   "id" : "02"
 }, {
-  "name" : "Tatyana",
-  "surname" : "Petrova",
-  "patronymic" : "Pavlovna",
+  "name" : "Leonid",
+  "surname" : "Andreev",
+  "patronymic" : "Maksimovich",
   "birthday" : 994276800000,
   "visitServices" : {
-    "2023-03-02T11:00:00.000+00:00" : [ "hairtips", "washing" ]
+    "2023-03-02T11:00:00.000+00:00" : [ {
+      "name" : "styling",
+      "description" : "wask",
+      "cost" : 1000
+    }, {
+      "name" : "haircut",
+      "description" : null,
+      "cost" : 2000
+    } ]
   },
   "id" : "03"
 }, {
-  "name" : "Kseniya",
+  "name" : "Igor",
   "surname" : "Granat",
-  "patronymic" : "Olegonva",
+  "patronymic" : "Olegovich",
   "birthday" : 996696000000,
   "visitServices" : {
-    "2023-11-10T06:30:00.000+00:00" : [ "hairtips", "washing" ]
+    "2023-11-10T06:30:00.000+00:00" : [ {
+      "name" : "eyebrows",
+      "description" : "styling",
+      "cost" : 1000
+    }, {
+      "name" : "haircut",
+      "description" : null,
+      "cost" : 1500
+    } ]
   },
   "id" : "04"
 }, {
-  "name" : "Polina",
-  "surname" : "Trusova",
-  "patronymic" : "Pavlovna",
+  "name" : "Alexandr",
+  "surname" : "Trusov",
+  "patronymic" : "Pavlovich",
   "birthday" : 1002484800000,
   "visitServices" : {
-    "2023-12-27T13:30:00.000+00:00" : [ "hairtips", "washing" ]
+    "2023-12-27T13:30:00.000+00:00" : [ {
+      "name" : "haircut",
+      "description" : null,
+      "cost" : 2000
+    } ]
   },
   "id" : "05"
 }, {
-  "name" : "Anna",
-  "surname" : "Alexeeva",
+  "name" : "Kirill",
+  "surname" : "Alexeev",
   "patronymic" : "Alexeevna",
   "birthday" : 563745600000,
   "visitServices" : {
-    "2022-09-09T23:10:00.000+00:00" : [ "bob", "paint", "washing" ]
+    "2022-09-09T23:10:00.000+00:00" : [ {
+      "name" : "haircut",
+      "description" : null,
+      "cost" : 2000
+    } ]
   },
   "id" : "06"
 }, {
-  "name" : "Ekaterina",
-  "surname" : "Golybeva",
-  "patronymic" : "Viktorovna",
-  "birthday" : 979678800000,
+  "name" : "Roman",
+  "surname" : "Golybev",
+  "patronymic" : "Viktorovich",
+  "birthday" : 790290000000,
   "visitServices" : {
-    "2023-02-01T08:00:00.000+00:00" : [ "hairtips", "washing" ],
-    "2023-03-01T08:00:00.000+00:00" : [ "hairtips" ]
+    "2023-02-01T08:00:00.000+00:00" : [ {
+      "name" : "mask",
+      "description" : "clay",
+      "cost" : 500
+    }, {
+      "name" : "haircut",
+      "description" : null,
+      "cost" : 2500
+    } ],
+    "2023-03-01T08:00:00.000+00:00" : [ {
+      "name" : "mask",
+      "description" : "clay",
+      "cost" : 500
+    }, {
+      "name" : "haircut",
+      "description" : null,
+      "cost" : 2500
+    } ]
   },
   "id" : "07"
 }, {
-  "name" : "Alina",
-  "surname" : "Golybeva",
-  "patronymic" : "Viktorovna",
-  "birthday" : 960926400000,
+  "name" : "Denis",
+  "surname" : "Golybev",
+  "patronymic" : "Viktorovich",
+  "birthday" : 771537600000,
   "visitServices" : {
-    "2023-03-01T11:00:00.000+00:00" : [ "hairtips", "washing" ]
+    "2023-03-01T11:00:00.000+00:00" : [ {
+      "name" : "haircut",
+      "description" : null,
+      "cost" : 2500
+    } ]
   },
   "id" : "08"
 }, {
-  "name" : "Alena",
-  "surname" : "Granat",
-  "patronymic" : "Olegonva",
-  "birthday" : 983739600000,
+  "name" : "Artem",
+  "surname" : "Kuznetsov",
+  "patronymic" : "Olegonvich",
+  "birthday" : 825973200000,
   "visitServices" : {
-    "2023-03-01T12:00:00.000+00:00" : [ "hairtips", "washing" ]
+    "2023-03-01T12:00:00.000+00:00" : [ {
+      "name" : "styling",
+      "description" : "wask",
+      "cost" : 1000
+    }, {
+      "name" : "haircut",
+      "description" : null,
+      "cost" : 2500
+    }, {
+      "name" : "coloring",
+      "description" : "blue iroiro",
+      "cost" : 3000
+    } ]
   },
   "id" : "09"
 }, {
-  "name" : "Olesya",
-  "surname" : "Trusova",
-  "patronymic" : "Pavlovna",
-  "birthday" : 990734400000,
+  "name" : "Ilya",
+  "surname" : "Frolov",
+  "patronymic" : "Danilovich",
+  "birthday" : 896040000000,
   "visitServices" : {
-    "2023-03-01T06:00:00.000+00:00" : [ "hairtips" ]
+    "2023-03-01T06:00:00.000+00:00" : [ {
+      "name" : "styling",
+      "description" : "wask",
+      "cost" : 1000
+    }, {
+      "name" : "haircut",
+      "description" : null,
+      "cost" : 2500
+    } ]
   },
   "id" : "10"
 }, {
-  "name" : "Alena",
-  "surname" : "Granat",
-  "patronymic" : "Olegonva",
-  "birthday" : 1007067600000,
+  "name" : "Ivan",
+  "surname" : "Sidorov",
+  "patronymic" : "Vladimirovich",
+  "birthday" : 943909200000,
   "visitServices" : {
-    "2023-12-01T12:00:00.000+00:00" : [ "hairtips", "washing" ]
+    "2023-12-01T12:00:00.000+00:00" : [ {
+      "name" : "haircut",
+      "description" : null,
+      "cost" : 2500
+    } ]
   },
   "id" : "09"
 }, {
-  "name" : "Olesya",
-  "surname" : "Trusova",
-  "patronymic" : "Pavlovna",
-  "birthday" : 1002398400000,
+  "name" : "Matvey",
+  "surname" : "Rumyantsev",
+  "patronymic" : "Evgenievich",
+  "birthday" : 970862400000,
   "visitServices" : {
-    "2023-11-01T06:00:00.000+00:00" : [ "hairtips" ]
+    "2023-11-01T06:00:00.000+00:00" : [ {
+      "name" : "haircut",
+      "description" : null,
+      "cost" : 2500
+    } ]
   },
   "id" : "10"
 } ]
