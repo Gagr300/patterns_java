@@ -1,15 +1,20 @@
+import com.fasterxml.jackson.annotation.JsonCreator;
+
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
 import java.util.*;
+import java.util.stream.Stream;
 
 public class HaircutMan
 {
     private String ID;
     private String name, surname, patronymic;
     private Date birthday;
-    private TreeMap<Date, List<String>> visitServices;
+    private TreeMap<Date, List<Service>> visitServices;
 
     public HaircutMan(){}
     public HaircutMan (String ID, String name, String surname, String patronymic,
-                       Date birthday, TreeMap<Date, List<String>> visitServices){
+                       Date birthday, TreeMap<Date, List<Service>> visitServices){
         this.ID = ID;
         this.name = name;
         this.surname = surname;
@@ -36,10 +41,6 @@ public class HaircutMan
         return visitServices;
     }
 
-    //public Map.Entry<Date, List<String>> getLastVisitServices(){
-    //    return visitServices.lastEntry();
-    //}
-
     public void setID(String ID){
         this.ID = ID;
     }
@@ -52,7 +53,7 @@ public class HaircutMan
     public void setPatronymic(String patronymic){
         this.patronymic = patronymic;
     }
-    public void addVisit(Date date,List<String> services){
+    public void addVisit(Date date,List<Service> services){
         visitServices.put(date, services);
     }
 
@@ -63,7 +64,7 @@ public class HaircutMan
                 ", surname='" + surname + '\'' +
                 ", patronymic=" + patronymic + '\'' +
                 ", birthday=" + birthday + '\'' +
-                ", visitServices=" + visitServices +
+                ", visitServices=" + visitServices.keySet() + '\'' +
                 '}';
     }
 }
