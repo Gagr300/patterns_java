@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Program {
@@ -32,6 +33,10 @@ public class Program {
                 default:
                     System.out.println("There is no such sandwich!");
             }
+        }
+        catch(FileNotFoundException e1) {
+             System.out.println("FileNotFoundException");
+            //e1.printStackTrace();
         }
         catch(IOException e1) {
             System.out.println("IOException");
