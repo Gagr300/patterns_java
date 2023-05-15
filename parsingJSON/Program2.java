@@ -144,22 +144,24 @@ public class Program2 {
         int maxVisits = 0;
         for (HaircutMan client :resultBack)
             maxVisits = max(maxVisits,client.getVisitServices().size());
-
-        for (HaircutMan client :resultBack){
-            if (client.getBirthday().getMonth() == calendarNext.getTime().getMonth())
-                ClBDayInNextMonth.add(client);
-            curDate.setYear(client.getBirthday().getYear());
-            long diffInMillies =  client.getBirthday().getTime() - curDate.getTime();
-
-            if ((int) (diffInMillies / (24 * 60 * 60 * 1000)) == 14 )
-                ClBDayInTwoWeeks.add(client);
-
-            if (client.getName().equals("Ilya"))
-                ClWithName.add(client);
-
-            if (client.getVisitServices().size() == maxVisits)
-                ClMaxVisits.add(client);
-        }
+        
+        int finalMaxVisits = maxVisits;
+        ClMaxVisits =  clients.stream()
+                .filter(c -> c.getVisitServices().size() == finalMaxVisits)
+                .collect(Collectors.toList());
+        
+        ClBDayInNextMonth =  clients.stream()
+                .filter(c -> c.getBirthday().getMonth() == calendarNext.getTime().getMonth())
+                .collect(Collectors.toList());
+        
+        ClWithName =  clients.stream()
+                .filter(c -> c.getName().equals("Ilya"))
+                .collect(Collectors.toList());
+        
+         ClBDayInTwoWeeks =  clients.stream()
+                .filter(c -> check(curDate, c.getBirthday()))
+                .collect(Collectors.toList());
+        
         System.out.println("\nClients that have birthday in next month");
         for (HaircutMan client :ClBDayInNextMonth)
             System.out.println(client);
@@ -176,7 +178,13 @@ public class Program2 {
         for (HaircutMan client :ClWithName)
             System.out.println(client);
 
+    }
+    
+     static public Boolean check (Date d1, Date d2){
+        d1.setYear(d2.getYear());
+        long diffInMillies =  d2.getTime() - d1.getTime();
 
+        return ((int) (diffInMillies / (24 * 60 * 60 * 1000)) == 14 );
     }
 }
 
