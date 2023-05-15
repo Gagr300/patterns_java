@@ -16,7 +16,11 @@ public class Program {
                     new Tetris(1145), new Puzzle(200), new Puzzle(-15)
 
             );
-        } catch (IllegalArgumentException e) {
+        } 
+        catch (NullPointerException e) {
+                System.out.println(e.getMessage());
+        }
+        catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
         GamePartitioner partitioner = new GamePartitioner();
